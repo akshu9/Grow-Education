@@ -9,3 +9,9 @@ burger.addEventListener('click',()=>{
     navbar.classList.toggle('h-nav');
 
 })
+
+let subscribeButton = document.querySelector('.buttons .btn');
+
+subscribeButton.addEventListener('click', () => { 
+    subscribeButton.innerHTML = 'Subscribed';
+});
