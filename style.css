@@ -226,6 +226,7 @@ html{
     .navbar{
         flex-direction: column;
         transition: all 0.3s ease-out;
+        position: sticky;
     }
     .rightNav{
         text-align: center;
@@ -260,6 +261,6 @@ html{
         padding: 0px;
     }
        .h-nav{
-        height: 22px;
+        height: 42px;
     }   
 }
